@@ -1,2 +1,16 @@
 # Anoroid
-just for course
+
+实验2
+
+linear_layout
+
+![image-20210927190646868](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20210927190646868.png)
+
+constraint_layout
+
+![image-20210927190812747](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20210927190812747.png)
+
+table_layout
+
+![image-20210927190845166](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20210927190845166.png)
+

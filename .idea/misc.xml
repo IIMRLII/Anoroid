@@ -6,16 +6,18 @@
         <entry key="..\:/AndroidApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
         <entry key="..\:/AndroidApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidApp/app/src/main/res/layout/constraintlayout.xml" value="0.2" />
-        <entry key="..\:/AndroidApp/app/src/main/res/layout/content_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidApp/app/src/main/res/layout/content_main.xml" value="0.8" />
         <entry key="..\:/AndroidApp/app/src/main/res/layout/fragment_first.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidApp/app/src/main/res/layout/fragment_second.xml" value="0.25364583333333335" />
-        <entry key="..\:/AndroidApp/app/src/main/res/layout/linearlayout.xml" value="0.15989583333333332" />
-        <entry key="..\:/AndroidApp/app/src/main/res/layout/tablelayout.xml" value="0.264" />
+        <entry key="..\:/AndroidApp/app/src/main/res/layout/linearlayout.xml" value="0.4" />
+        <entry key="..\:/AndroidApp/app/src/main/res/layout/simpleadapter.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidApp/app/src/main/res/layout/simpleadapterlayout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidApp/app/src/main/res/layout/tablelayout.xml" value="0.4" />
         <entry key="..\:/AndroidApp/app/src/main/res/layout/线性布局实验.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

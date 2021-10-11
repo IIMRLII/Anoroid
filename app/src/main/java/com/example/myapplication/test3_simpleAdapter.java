@@ -1,9 +1,11 @@
 package com.example.myapplication;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -14,7 +16,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class test3 extends Activity {
+public class test3_simpleAdapter extends Activity {
 
     private ListView listView;
     private SimpleAdapter simple_adapter;
@@ -39,7 +41,7 @@ public class test3 extends Activity {
         }
 
         SimpleAdapter simpleAdapter = new SimpleAdapter(
-                test3.this,/*传入一个上下文作为参数*/
+                test3_simpleAdapter.this,/*传入一个上下文作为参数*/
                 dataList,         /*传入相对应的数据源，这个数据源不仅仅是数据而且还是和界面相耦合的混合体。*/
                 R.layout.simpleadapterlayout, /*设置具体某个items的布局，需要是新的布局，而不是ListView控件的布局*/
                 new String[]{"name","pic"}, /*传入上面定义的键值对的键名称,会自动根据传入的键找到对应的值*/
@@ -51,7 +53,12 @@ public class test3 extends Activity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 TextView context = (TextView) view.findViewById(R.id.name);
-                Toast.makeText(test3.this, context.getText().toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(test3_simpleAdapter.this, context.getText().toString(), Toast.LENGTH_SHORT).show();
+
+//                view.setBackgroundColor(Color.parseColor("#ff0000"));
+//                LinearLayout test3_linearlayout=(LinearLayout)view.findViewById(R.id.test3_linearlayout);
+//                test3_linearlayout.setBackgroundColor(Color.parseColor("#ff0000"));
+
             }
         });
     }

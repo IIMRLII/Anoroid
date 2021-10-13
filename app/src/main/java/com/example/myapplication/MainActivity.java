@@ -43,5 +43,14 @@ public class MainActivity extends Activity {
                 MainActivity.this.startActivity(intent_test3_customMenu);
             }
         });
+
+        btn = (Button)findViewById(R.id.button4);
+        btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent_test3_actionMode = new Intent();
+                intent_test3_actionMode.setClass(MainActivity.this, test3_actionMode.class);
+                MainActivity.this.startActivity(intent_test3_actionMode);
+            }
+        });
     }
 }

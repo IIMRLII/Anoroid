@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.test3_customMenu">
+
+    <item
+        android:id="@+id/fontSelect"
+        android:orderInCategory="1"
+        android:title="字体大小"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/font_10"
+                android:title="10号字体"/>
+            <item
+                android:id="@+id/font_20"
+                android:title="20号字体"/>
+            <item
+                android:id="@+id/font_30"
+                android:title="30号字体"/>
+            <item
+                android:id="@+id/font_40"
+                android:title="40号字体"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/commonMenu"
+        android:orderInCategory="2"
+        android:title="普通菜单项"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/colorSelect"
+        android:orderInCategory="3"
+        android:title="字体颜色"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="红色"/>
+            <item
+                android:id="@+id/black"
+                android:title="黑色"/>
+        </menu>
+
+    </item>
+
+</menu>

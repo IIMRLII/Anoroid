@@ -46,6 +46,13 @@
             android:layout_gravity="center_horizontal"
             android:text="CustomMenu"></Button>
 
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="ActionMode"></Button>
+
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

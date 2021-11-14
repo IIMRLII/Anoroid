@@ -7,7 +7,7 @@
         android:id="@+id/fontSelect"
         android:orderInCategory="1"
         android:title="字体大小"
-        app:showAsAction="never">
+        app:showAsAction="always">
 
         <menu>
                 <item
